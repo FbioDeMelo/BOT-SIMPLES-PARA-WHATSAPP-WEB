@@ -8,9 +8,6 @@ numeros = [
 ]
 
 mensagem = """
-Bom dia, tudo bem? 😊
-Quarta-feira (dia 15/12) é aniversário da Alexsandra do Administrativo, vamos escrever bilhetinhos para ela.
-Conto com a colaboração de todos! ❤️
 """
 
 print("Iniciando o envio de mensagens...")
@@ -54,4 +51,5 @@ for i, numero in enumerate(numeros):
         time.sleep(45)
 
 print("\n🎉 Envio concluído!")
+
 
