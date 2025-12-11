@@ -4,13 +4,7 @@ import time
 from datetime import datetime
 
 numeros = [
-    '+553184800639',
-    '+553193490699',
-     '+553190840257',
-     '+553172572079',
-     '+553191328053',
-     '+554491748751',
-     '+553171425908',
+    '', #Adição de Numeros
 ]
 
 mensagem = """
@@ -49,8 +43,6 @@ for i, numero in enumerate(numeros):
         )
 
         print(f"✅ Mensagem enviada para {numero}")
-
-        # Fecha a aba usando pyautogui
         time.sleep(5)
         pyautogui.hotkey('ctrl', 'w')
 
@@ -62,3 +54,4 @@ for i, numero in enumerate(numeros):
         time.sleep(45)
 
 print("\n🎉 Envio concluído!")
+
